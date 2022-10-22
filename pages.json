@@ -1,0 +1,83 @@
+{
+	"pages": [ {
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "onReachBottomDistance": 50
+            }
+            
+        }
+        ,{
+            "path" : "pages/ my/ my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "subPackages": [{
+      "root": "subpkg",
+      "pages": [
+        {
+          "path": "goods/goods",
+          "style": {
+            "backgroundColor": "#f0f0f0"
+          }
+        },
+        {
+          "path": "info/info",
+          "style": {
+            "backgroundColor": "#f0f0f0",
+            "navigationBarTitleText": "我的信息"
+          }
+        }
+          ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "publish/publish",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "二易铺",
+		"navigationBarBackgroundColor": "#70ba9f",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home"
+        // "text": "首页",
+        // "iconPath": "static/tab-icons/店铺icon.png",
+        // "selectedIconPath":"static/tab-icons/店铺icon.png"
+      },
+      {
+        "pagePath": "pages/ my/ my"
+        // "text":"个人中心",
+        // "iconPath": "static/tab-icons/my.png",
+        // "selectedIconPath": "static/tab-icons/my.png"
+      }
+    ]
+  }
+}

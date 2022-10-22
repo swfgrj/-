@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/ my/ my"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods/goods",
+        "info/info",
+        "search/search",
+        "publish/publish"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "二易铺",
+    "navigationBarBackgroundColor": "#70ba9f",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home"
+      },
+      {
+        "pagePath": "pages/ my/ my"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tab-bar": "/components/tabbar/tabbar"
+  },
+  "sitemapLocation": "sitemap.json"
+}
